@@ -1,0 +1,17 @@
+<section class="what_i_do">
+    <div class="container">
+        <div class="header">
+            <h2>My projects</h2>
+        </div>
+        <div class="cards">
+        @for (item of textArray; track $index) {
+            <div class="card">
+                <figure class="icon">
+                    <img [src]="item.image" alt="">
+                </figure>
+                <h3>{{ item.title }}</h3>
+            </div>
+        }
+    </div>
+    </div>
+</section>

@@ -1,0 +1,18 @@
+<div class="skills-container">
+  <h2>My Skills</h2>
+  <div class="skills-box">
+   
+        @for (item of textArray; track $index) {
+
+     <div class="skill">
+       <h3>{{item.precentage}}</h3>
+       <p>{{item.title}}</p>
+     </div>
+   }
+
+    <!-- <div class="skill">
+      <h3>2%</h3>
+      <p>typescript</p>
+    </div> -->
+  </div>
+</div>

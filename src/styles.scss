@@ -1,0 +1,36 @@
+/* You can add global styles to this file, and also import other style files */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    // display: flex;
+    // justify-content: center;
+}
+body{
+background-color: #171717;
+color: white;
+}
+.container{
+    padding-top: 2rem ;
+    display: flex;
+justify-content: center;    
+width: 80%;
+margin: auto;
+}
+
+img{
+    width: 100%;
+}
+
+.column{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.row{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}

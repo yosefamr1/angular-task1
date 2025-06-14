@@ -1,0 +1,32 @@
+.what_i_do{
+    padding: 2rem 0;
+}
+.what_i_do .container{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+   
+}
+.cards{
+    margin-top: 2rem;
+    display: flex
+;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.card{
+    margin: 1rem 0;
+    justify-content: center;
+    width: 30%;
+    background-color: #212121;
+    padding: 2rem;
+}
+.icon{
+    margin: auto;
+    // margin: 10px 0;
+    width: 2rem;
+}
+ h3{
+    margin-top: 2rem;
+}

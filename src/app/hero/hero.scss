@@ -1,0 +1,19 @@
+.container{
+    justify-content: space-between;
+}
+.user_photo{
+    width: 20%;
+    margin-left: 2rem;
+}
+.user_photo img{
+        border-radius: 50%;
+}
+.her_text{
+    display: flex
+;
+    flex-direction: column;
+    justify-content: center;
+}
+.her_text h1{
+    margin-bottom: 2.5rem;
+}
